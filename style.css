@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 400px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.box form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.form_group input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+
+.form_group .btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.form_group p{
+    color: red;
+    text-transform: capitalize;
+}
+
